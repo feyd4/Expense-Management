@@ -1,10 +1,6 @@
 # Expense-Management/-java
 **Java SDK for Expense-Management/**
 
-
-This library contains implementation of Expense-Management/ SDK in Java. Currently the following [splitwise API](http://dev.splitwise.com/#introduction) calls 
-are supported,
-
 `get_current_user`
 `get_user/:id`
 `update_user/:id`
@@ -307,11 +303,3 @@ JSON string containing all the categories.
 String categories = splitwise.getCategories();
 ```
 
-***Testing***
-***
-
-
-
-**License**
-***
-[MIT](http://www.opensource.org/licenses/mit-license.php)

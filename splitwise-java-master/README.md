@@ -1,10 +1,8 @@
-# splitwise-java
-**Java SDK for Splitwise**
+# Expense-Management/-java
+**Java SDK for Expense-Management/**
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.sritejakv/splitwise.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.sritejakv%22%20AND%20a:%22splitwise%22)
 
-***
-This library contains implementation of Splitwise SDK in Java. Currently the following [splitwise API](http://dev.splitwise.com/#introduction) calls 
+This library contains implementation of Expense-Management/ SDK in Java. Currently the following [splitwise API](http://dev.splitwise.com/#introduction) calls 
 are supported,
 
 `get_current_user`
@@ -312,11 +310,7 @@ String categories = splitwise.getCategories();
 ***Testing***
 ***
 
-The library includes test cases for some of the methods. It uses [Mockito](https://site.mockito.org/)
-framework to mock the methods needed in unit test cases.
 
-Test cases for two vital classes `Splitwise` and `OAuthUtl` are included in the library, 
-`SplitwiseTest` and `OAuthUtilTest`.
 
 **License**
 ***
